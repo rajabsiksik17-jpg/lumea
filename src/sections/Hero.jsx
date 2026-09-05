@@ -111,11 +111,11 @@ export default function Hero() {
             العناية، الجودة، والتفاصيل التي تمنحك إحساسًا مختلفًا في كل مرة.
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-4">
-            <Button data-hero-cta href="#story" variant="light">
+          <div className="mt-10 flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4">
+            <Button data-hero-cta href="#story" variant="light" className="w-full justify-center sm:w-auto">
               اكتشفي عالمنا
             </Button>
-            <Button data-hero-cta href="#contact" variant="outlineLight">
+            <Button data-hero-cta href="#contact" variant="outlineLight" className="w-full justify-center sm:w-auto">
               احجزي تجربتك
             </Button>
           </div>

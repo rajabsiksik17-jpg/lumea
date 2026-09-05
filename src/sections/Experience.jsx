@@ -72,7 +72,7 @@ export default function Experience() {
 
         <h2
           data-exp-reveal
-          className="font-serif text-4xl font-light leading-tight text-cream md:text-7xl"
+          className="font-serif text-[2.4rem] font-light leading-tight text-cream sm:text-5xl md:text-7xl"
         >
           TAKE A MOMENT
           <br />

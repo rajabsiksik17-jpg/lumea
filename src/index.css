@@ -69,19 +69,19 @@ body {
 
 /* Typography helpers */
 .display-hero {
-  font-size: clamp(3.25rem, 12vw, 10rem);
-  line-height: 0.92;
+  font-size: clamp(2.9rem, 13vw, 10rem);
+  line-height: 0.9;
   letter-spacing: -0.01em;
 }
 
 .display-xl {
-  font-size: clamp(2.5rem, 7vw, 6rem);
+  font-size: clamp(2.4rem, 7.5vw, 6rem);
   line-height: 1.02;
   letter-spacing: -0.01em;
 }
 
 .display-lg {
-  font-size: clamp(2rem, 4.5vw, 4rem);
+  font-size: clamp(2rem, 6vw, 4rem);
   line-height: 1.06;
 }
 
@@ -170,6 +170,15 @@ body {
 @keyframes marqueeRtl {
   from { transform: translateX(-50%); }
   to { transform: translateX(0); }
+}
+
+/* Hide horizontal scrollbar on mobile snap carousels */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Slow float */
