@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
-import { gsap, prefersReducedMotion, isMobile } from '../animations/helpers.js'
+import { gsap, prefersReducedMotion } from '../animations/helpers.js'
 import { setupServicesAnimations } from '../animations/servicesAnimations.js'
 import { services } from '../data/services.js'
 import { Icon } from '../components/Icon.jsx'
@@ -11,7 +11,16 @@ export default function Services() {
   useLayoutEffect(() => {
     if (!root.current) return
     const ctx = gsap.context(() => {
-      if (prefersReducedMotion() || isMobile()) {
+      if (prefersReducedMotion()) {
+        gsap.set(root.current.querySelectorAll('[data-service-panel], [data-service-reveal]'), {
+          opacity: 1,
+          y: 0,
+          clipPath: 'inset(0% 0 0 0)',
+        })
+        gsap.set(root.current.querySelectorAll('[data-service-panel] img'), {
+          scale: 1,
+          clipPath: 'inset(0% 0 0 0)',
+        })
         return
       }
       setupServicesAnimations({ root: root.current })
@@ -50,6 +59,7 @@ export default function Services() {
             {services.map((s, i) => (
               <article
                 key={s.id}
+                data-service-panel
                 className="group relative flex w-full shrink-0 flex-col md:h-full md:w-[70vw] md:max-w-[1100px] md:odd:pr-14 md:even:pl-14"
               >
                 <div className="relative flex h-full flex-col overflow-hidden rounded-sm md:flex-row">
@@ -67,14 +77,22 @@ export default function Services() {
 
                   {/* Text */}
                   <div className="flex flex-1 flex-col justify-center gap-4 bg-warm p-8 md:w-1/2 md:p-12">
-                    <span className="flex h-12 w-12 items-center justify-center rounded-full border border-line text-accent">
+                    <span
+                      data-service-reveal
+                      className="flex h-12 w-12 items-center justify-center rounded-full border border-line text-accent"
+                    >
                       <Icon name={s.icon} className="h-5 w-5" strokeWidth={1.3} />
                     </span>
-                    <h3 className="font-serif text-3xl font-light text-ink md:text-4xl">
+                    <h3
+                      data-service-reveal
+                      className="font-serif text-3xl font-light text-ink md:text-4xl"
+                    >
                       {s.title}
                     </h3>
-                    <p className="text-sm uppercase tracking-widest2 text-muted">{s.titleAr}</p>
-                    <p className="text-base font-light leading-relaxed text-muted">
+                    <p data-service-reveal className="text-sm uppercase tracking-widest2 text-muted">
+                      {s.titleAr}
+                    </p>
+                    <p data-service-reveal className="text-base font-light leading-relaxed text-muted">
                       {s.description}
                     </p>
                   </div>

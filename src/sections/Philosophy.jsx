@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
-import { gsap, prefersReducedMotion, isMobile } from '../animations/helpers.js'
+import { gsap, prefersReducedMotion } from '../animations/helpers.js'
 import { setupPhilosophyAnimations } from '../animations/philosophyAnimations.js'
 import { principles } from '../data/philosophy.js'
 import { images } from '../data/images.js'
@@ -11,8 +11,7 @@ export default function Philosophy() {
   useLayoutEffect(() => {
     if (!root.current) return
     const ctx = gsap.context(() => {
-      if (prefersReducedMotion() || isMobile()) {
-        // Show all principles (they stack vertically on mobile).
+      if (prefersReducedMotion()) {
         gsap.set(root.current.querySelectorAll('[data-phil-item]'), { opacity: 1, y: 0 })
         gsap.set(root.current.querySelectorAll('[data-phil-reveal]'), { opacity: 1, y: 0 })
         return
@@ -67,13 +66,14 @@ export default function Philosophy() {
             </div>
 
             {/* Principles — stacked on mobile, overlapping (animated) on desktop */}
-            <div className="relative flex flex-col gap-10 lg:block lg:h-[380px]">
+            <div className="relative flex flex-col gap-12 lg:block lg:h-[380px]">
               {principles.map((p) => (
                 <div
                   key={p.number}
                   data-phil-item
-                  className="relative flex flex-col justify-center lg:absolute lg:inset-0"
-                  style={{ opacity: p.number === '01' ? 1 : 0 }}
+                  className={`relative flex flex-col justify-center lg:absolute lg:inset-0 ${
+                    p.number === '01' ? '' : 'lg:opacity-0'
+                  }`}
                 >
                   <span
                     data-phil-reveal

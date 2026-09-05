@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
-import { gsap, prefersReducedMotion, isMobile } from '../animations/helpers.js'
+import { gsap, prefersReducedMotion } from '../animations/helpers.js'
 import { setupStoryAnimations } from '../animations/storyAnimations.js'
 import { images } from '../data/images.js'
 import SmartImage from '../components/SmartImage.jsx'
@@ -12,9 +12,10 @@ export default function Story() {
   useLayoutEffect(() => {
     if (!root.current) return
     const ctx = gsap.context(() => {
-      if (prefersReducedMotion() || isMobile()) {
+      if (prefersReducedMotion()) {
         gsap.set(root.current.querySelectorAll('[data-story-word]'), { yPercent: 0 })
-        gsap.set(root.current.querySelector('[data-story-img]'), { scale: 1 })
+        gsap.set(root.current.querySelectorAll('[data-story-para]'), { opacity: 1, y: 0 })
+        gsap.set(root.current.querySelector('[data-story-img]'), { scale: 1, clipPath: 'inset(0 0 0 0)' })
         return
       }
       setupStoryAnimations({ root: root.current })
@@ -45,14 +46,16 @@ export default function Story() {
             </h2>
 
             <div className="mt-8 max-w-lg space-y-5 text-base font-light leading-relaxed text-muted">
-              <p>
+              <p data-story-para>
                 بدأت LUMÉA من إيمان بأن الجمال لا يتعلق فقط بما نراه أمام المرآة، بل بما نشعر به
                 تجاه أنفسنا.
               </p>
-              <p>
+              <p data-story-para>
                 لذلك جمعنا بين المعرفة، الجودة، والحس الجمالي لنصنع تجربة تتجاوز المنتج أو الخدمة.
               </p>
-              <p>من أول لحظة وحتى آخر تفصيل، نريد أن تشعري بأن كل شيء صُمم من أجلك.</p>
+              <p data-story-para>
+                من أول لحظة وحتى آخر تفصيل، نريد أن تشعري بأن كل شيء صُمم من أجلك.
+              </p>
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
-import { gsap, prefersReducedMotion, isMobile } from '../animations/helpers.js'
+import { gsap, prefersReducedMotion } from '../animations/helpers.js'
 import { setupProductAnimations } from '../animations/productAnimations.js'
 import { products } from '../data/products.js'
 import { Icon } from '../components/Icon.jsx'
@@ -13,10 +13,10 @@ export default function Products() {
   useLayoutEffect(() => {
     if (!root.current) return
     const ctx = gsap.context(() => {
-      if (prefersReducedMotion() || isMobile()) {
+      if (prefersReducedMotion()) {
         gsap.set(root.current.querySelectorAll('[data-product-panel]'), { opacity: 1, scale: 1 })
         gsap.set(root.current.querySelectorAll('[data-product-reveal]'), { opacity: 1, y: 0 })
-        gsap.set(root.current.querySelectorAll('[data-product-bg]'), { opacity: 0 })
+        gsap.set(root.current.querySelectorAll('[data-product-panel] img'), { scale: 1 })
         return
       }
       setupProductAnimations({ root: root.current })
@@ -59,8 +59,7 @@ export default function Products() {
               <div
                 key={p.id}
                 data-product-panel
-                className="flex flex-col gap-8 md:col-start-1 md:row-start-1 md:grid md:grid-cols-2 md:items-center md:gap-16"
-                style={{ opacity: 0 }}
+                className="flex flex-col gap-8 md:col-start-1 md:row-start-1 md:grid md:grid-cols-2 md:items-center md:gap-16 md:opacity-0"
               >
                 {/* Image */}
                 <div className="relative aspect-[4/5] max-h-[60vh] w-full overflow-hidden rounded-sm">
