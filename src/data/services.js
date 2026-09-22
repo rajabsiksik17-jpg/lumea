@@ -21,7 +21,7 @@ export const services = [
       'جلسات تجديد وتقشير متقدمة تنقّي البشرة وتعيد لها نضارتها وتوهّجها.',
     icon: 'ScanFace',
     image:
-      'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?auto=format&fit=crop&w=1200&q=80',
   },
   {
     id: 'derma-consultation',
@@ -43,7 +43,7 @@ export const services = [
       'تركيبات موضعية مختارة بجودة صيدلانية لتكون جزءًا من روتينك اليومي.',
     icon: 'Droplets',
     image:
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
   },
 ]
 
