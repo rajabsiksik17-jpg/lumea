@@ -67,7 +67,7 @@ export default function Experience() {
           data-exp-reveal
           className="mb-6 text-[0.62rem] uppercase tracking-widest2 text-cream/50"
         >
-          Beauty is a ritual
+          Skin is a ritual
         </p>
 
         <h2

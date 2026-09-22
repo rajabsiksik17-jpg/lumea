@@ -41,13 +41,13 @@ export default function Services() {
                 <span className="eyebrow">04 — Services</span>
               </div>
               <h2 className="font-serif text-4xl font-light leading-tight text-ink md:text-6xl">
-                BEAUTY,
+                AESTHETICS,
                 <br />
                 <span className="italic">YOUR WAY.</span>
               </h2>
             </div>
             <p className="max-w-sm text-base font-light leading-relaxed text-muted">
-              اختاري ما يناسبك، واتركي لنا التفاصيل.
+              اختاري العلاج المناسب، واتركي لنا الدقة والتفاصيل.
             </p>
           </div>
 

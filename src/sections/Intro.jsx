@@ -55,15 +55,15 @@ export default function Intro() {
           data-intro-title
           className="font-serif text-3xl font-light leading-snug text-ink md:text-5xl"
         >
-          جمالك ليس اتجاهًا. إنه طريقتك الخاصة.
+          بشرتك ليست قالبًا جاهزًا. إنها لوحة تخصّك وحدك.
         </h2>
 
         <p
           data-intro-body
           className="mt-8 max-w-2xl text-base font-light leading-relaxed text-muted md:text-lg"
         >
-          لذلك لا نقدم حلولًا جاهزة للجميع. نبدأ منك، من احتياجاتك، من تفاصيلك، ومن الطريقة التي
-          تريدين أن تشعري بها.
+          لذلك لا نقدّم وصفات موحّدة للجميع. نبدأ بفحص بشرتك، ونبني خطة علاجية — من الكريمات
+          الطبية إلى جلسات الفيلر — تليق بطبيعتها واحتياجاتها وحدها.
         </p>
       </div>
     </section>

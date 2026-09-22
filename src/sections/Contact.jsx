@@ -94,10 +94,10 @@ export default function Contact() {
             <h2 data-contact-reveal className="font-serif text-4xl font-light leading-tight text-ink md:text-6xl">
               LET'S TALK
               <br />
-              <span className="italic">BEAUTY.</span>
+              <span className="italic">SKIN.</span>
             </h2>
             <p data-contact-reveal className="mt-6 max-w-sm text-base font-light leading-relaxed text-muted">
-              لديك سؤال؟ تريدين معرفة المزيد؟ نحن هنا لنساعدك.
+              لديك سؤال عن علاج أو تركيبة؟ تريدين حجز استشارة؟ نحن هنا لمساعدتك.
             </p>
 
             <div className="mt-12 flex flex-col gap-6">

@@ -54,14 +54,14 @@ export default function Philosophy() {
               <h2 className="font-serif text-4xl font-light leading-tight text-ink md:text-6xl">
                 Less noise.
                 <br />
-                <span className="italic">More beauty.</span>
+                <span className="italic">More science.</span>
               </h2>
               <p className="mt-6 font-serif text-2xl font-light text-muted">
-                أقل ضجيجًا. أكثر جمالًا.
+                أقل ضجيجًا. نتائج أدقّ.
               </p>
               <p className="mt-6 max-w-sm text-base font-light leading-relaxed text-muted">
-                نؤمن بالجمال الهادئ. بالجودة التي لا تحتاج إلى شرح. وبالتفاصيل الصغيرة التي تصنع
-                الفرق الكبير.
+                نؤمن بالجمال المدروس علميًا. بالتركيبات التي لا تحتاج إلى مبالغة، وبالدقة التي
+                تصنع الفرق الحقيقي.
               </p>
             </div>
 

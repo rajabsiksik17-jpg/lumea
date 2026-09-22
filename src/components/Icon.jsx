@@ -22,6 +22,12 @@ import {
   Send,
   ChevronLeft,
   ChevronRight,
+  Syringe,
+  ScanFace,
+  Stethoscope,
+  FlaskConical,
+  ShieldCheck,
+  Leaf,
 } from 'lucide-react'
 
 // Central icon registry — maps string keys from data files to components.
@@ -49,6 +55,12 @@ const registry = {
   Send,
   ChevronLeft,
   ChevronRight,
+  Syringe,
+  ScanFace,
+  Stethoscope,
+  FlaskConical,
+  ShieldCheck,
+  Leaf,
 }
 
 export function Icon({ name, ...props }) {

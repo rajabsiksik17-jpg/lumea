@@ -4,7 +4,7 @@ import { setupStoryAnimations } from '../animations/storyAnimations.js'
 import { images } from '../data/images.js'
 import SmartImage from '../components/SmartImage.jsx'
 
-const headline = ['بدأ كل شيء', 'بفكرة بسيطة:', 'أن تصبح العناية', 'تجربة.']
+const headline = ['بدأ كل شيء', 'بسؤال واحد:', 'كيف نجمع بين', 'العلم والجمال؟']
 
 export default function Story() {
   const root = useRef(null)
@@ -47,14 +47,16 @@ export default function Story() {
 
             <div className="mt-8 max-w-lg space-y-5 text-base font-light leading-relaxed text-muted">
               <p data-story-para>
-                بدأت LUMÉA من إيمان بأن الجمال لا يتعلق فقط بما نراه أمام المرآة، بل بما نشعر به
-                تجاه أنفسنا.
+                بدأت LUMÉA من قناعة بأن العناية بالبشرة لا تقتصر على ما يظهر على السطح، بل تبدأ من
+                فهم أعمق لطبيعة الجلد.
               </p>
               <p data-story-para>
-                لذلك جمعنا بين المعرفة، الجودة، والحس الجمالي لنصنع تجربة تتجاوز المنتج أو الخدمة.
+                لذلك جمعنا بين المعرفة الطبية والتركيبات الدقيقة لصنع تجربة تتجاوز المنتج أو
+                الجلسة — من الكريمات إلى الفيلر.
               </p>
               <p data-story-para>
-                من أول لحظة وحتى آخر تفصيل، نريد أن تشعري بأن كل شيء صُمم من أجلك.
+                من أول استشارة وحتى آخر تفصيل، نريد أن تشعري بأن كل خطوة صُمّمت علميًا من أجل
+                بشرتك.
               </p>
             </div>
           </div>

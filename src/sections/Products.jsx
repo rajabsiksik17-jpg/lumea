@@ -60,13 +60,13 @@ export default function Products() {
             <div className="flex items-center gap-3">
               <span className="h-px w-8 bg-accent" />
               <span className="text-[0.68rem] uppercase tracking-widest2 text-cream/60">
-                05 — The Edit
+                05 — The Formulary
               </span>
             </div>
             <p className="hidden max-w-xs text-sm font-light leading-relaxed text-cream/60 md:block">
-              مجموعة مختارة من التفاصيل التي تجعل روتينك أكثر جمالًا.
+              مجموعة تركيبات طبية مختارة بعناية لروتينك اليومي.
             </p>
-            <h2 className="font-serif text-3xl font-light text-cream md:text-5xl">THE EDIT</h2>
+            <h2 className="font-serif text-3xl font-light text-cream md:text-5xl">THE FORMULARY</h2>
           </div>
 
           {/* MOBILE: horizontal snap carousel (swipe) */}

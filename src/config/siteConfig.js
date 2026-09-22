@@ -8,9 +8,9 @@
 export const siteConfig = {
   // Brand
   name: 'LUMÉA',
-  tagline: 'BEAUTY & CARE',
-  brandMotto: 'Beauty, refined.',
-  brandStatement: 'جمالٌ يُرى، عنايةٌ تُشعر بها.',
+  tagline: 'DERMO · AESTHETICS',
+  brandMotto: 'Skin, refined.',
+  brandStatement: 'بشرةٌ تُعتنى، نتائج تُرى وتُشعر بها.',
 
   // Contact (placeholders — replace with real data before launch)
   email: 'hello@lumea.com',
@@ -22,7 +22,7 @@ export const siteConfig = {
   // WhatsApp (placeholder number — replace with real number incl. country code)
   whatsapp: '962790000000',
   whatsappMessage:
-    'مرحباً LUMÉA، أرغب بالاستفسار عن خدماتكم.',
+    'مرحباً LUMÉA، أرغب بالاستفسار عن علاجات وتركيبات البشرة لديكم.',
 
   // Social links
   social: {
@@ -33,9 +33,9 @@ export const siteConfig = {
 
   // SEO / meta
   seo: {
-    title: 'LUMÉA — Beauty, Refined',
+    title: 'LUMÉA — Skin, Refined',
     description:
-      'Discover LUMÉA, a modern beauty experience built around thoughtful care, premium products and timeless beauty.',
+      'Discover LUMÉA, a dermocosmetic and aesthetic experience — medical-grade creams, serums and expert filler treatments built around thoughtful skin care.',
     url: 'https://lumea.com/',
     canonical: 'https://lumea.com/',
     ogImage: '/og-image.jpg',

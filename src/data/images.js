@@ -10,7 +10,7 @@ const u = (id, w = 1600, extra = '') =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80${extra}`
 
 export const images = {
-  hero: u('photo-1522335789203-aabd1fc54bc9', 1920),
+  hero: u('photo-1612817288484-6f916006741a', 1920),
   heroAlt: u('photo-1512496015851-a90fb38ba796', 1600),
   story: u('photo-1487412947147-5cebf100ffc2', 1400),
   storySecondary: u('photo-1526510747491-58f928ec870f', 1400),

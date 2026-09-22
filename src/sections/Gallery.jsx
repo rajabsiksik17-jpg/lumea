@@ -35,10 +35,10 @@ export default function Gallery() {
       {/* Moving wordmark */}
       <div className="pointer-events-none select-none overflow-hidden" aria-hidden="true">
         <div className="marquee-track flex w-max whitespace-nowrap font-serif text-[16vw] font-light leading-none text-ink/[0.05] md:text-[11vw]">
-          <span className="px-6">BEAUTY IN DETAILS</span>
-          <span className="px-6 italic text-accent/20">· BEAUTY IN DETAILS</span>
-          <span className="px-6">BEAUTY IN DETAILS</span>
-          <span className="px-6 italic text-accent/20">· BEAUTY IN DETAILS</span>
+          <span className="px-6">SKIN IN DETAILS</span>
+          <span className="px-6 italic text-accent/20">· SKIN IN DETAILS</span>
+          <span className="px-6">SKIN IN DETAILS</span>
+          <span className="px-6 italic text-accent/20">· SKIN IN DETAILS</span>
         </div>
       </div>
 

@@ -70,7 +70,7 @@ export default function FinalCTA() {
         >
           <SmartImage
             src={images.finalCta}
-            alt="Premium beauty campaign imagery"
+            alt="Premium dermocosmetic skincare imagery"
             className="h-full w-full object-cover"
             data-cta-img
             eager
@@ -85,21 +85,21 @@ export default function FinalCTA() {
               data-cta-reveal
               className="mb-6 text-[0.62rem] uppercase tracking-widest2 text-cream/70"
             >
-              Your beauty deserves a moment
+              Your skin deserves expert care
             </p>
             <h2
               data-cta-reveal
               className="font-serif text-[2.4rem] font-light leading-tight text-cream sm:text-5xl md:text-7xl"
             >
-              جمالك يستحق
+              بشرتك تستحق
               <br />
-              لحظته.
+              عناية حقيقية.
             </h2>
             <p
               data-cta-reveal
               className="mx-auto mt-6 max-w-md text-base font-light leading-relaxed text-cream/80"
             >
-              اكتشفي تجربة LUMÉA وابدئي رحلة مختلفة نحو العناية والجمال.
+              اكتشفي تجربة LUMÉA وابدئي رحلة علمية دقيقة نحو بشرة أكثر صحة وإشراقًا.
             </p>
             <div
               data-cta-reveal

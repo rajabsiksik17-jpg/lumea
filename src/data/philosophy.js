@@ -5,19 +5,19 @@ export const principles = [
     number: '01',
     title: 'النقاء',
     titleEn: 'Purity',
-    description: 'اختيارات مدروسة، تركيبات واضحة، وتجربة بسيطة.',
+    description: 'تركيبات طبية نقية، خالية من الإضافات غير الضرورية.',
   },
   {
     number: '02',
-    title: 'الجودة',
-    titleEn: 'Quality',
-    description: 'نهتم بما يدخل في كل منتج وما يحدث في كل خطوة.',
+    title: 'الأمان',
+    titleEn: 'Safety',
+    description: 'بروتوكولات طبية صارمة ونتائج مدروسة بعناية فائقة.',
   },
   {
     number: '03',
-    title: 'التفاصيل',
-    titleEn: 'Details',
-    description: 'لأن الفخامة الحقيقية تظهر في التفاصيل التي قد لا يلاحظها الجميع.',
+    title: 'الدقة',
+    titleEn: 'Precision',
+    description: 'لأن النتيجة المثالية تعتمد على أدق التفاصيل وأصحّ المقادير.',
   },
 ]
 
