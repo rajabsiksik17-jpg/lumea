@@ -76,9 +76,19 @@ Everything brand-related lives in `src/config/siteConfig.js`:
 
 Content (services, products, testimonials, stats) lives in `src/data/*.js`.
 
-Images are centralized in `src/data/images.js` and currently use royalty-free
-Unsplash URLs for development. **Replace them** with your own assets before
-launch (drop files in `public/images` and reference them as `/images/...`).
+Images are centralized in `src/data/images.js` (core), `src/data/services.js`
+and `src/data/products.js`. They currently point to elegant **SVG placeholders**
+in `public/images/`.
+
+To go live, replace each placeholder with your real photo (jpg/webp) and update
+the extension in the source file. See the full manifest in
+[`public/images/README.md`](public/images/README.md).
+
+You can regenerate the placeholders anytime with:
+
+```bash
+node scripts/generate-placeholders.mjs
+```
 
 ### Contact form
 

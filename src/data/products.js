@@ -8,8 +8,7 @@ export const products = [
     tagline: 'Advanced Moisturising Cream',
     description: 'كريم مرطب بتركيبة ببتيدية يعيد الترطيب العميق ويملأ الخطوط الدقيقة.',
     icon: 'Droplets',
-    image:
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/product-hydrapeptide.svg',
   },
   {
     id: 'retinol-renew',
@@ -18,8 +17,7 @@ export const products = [
     tagline: 'Night Repair Cream',
     description: 'كريم ليلي بالريتينول يجدّد خلايا البشرة ويمنحها ملمسًا أكثر نعومة.',
     icon: 'Moon',
-    image:
-      'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/product-retinol.svg',
   },
   {
     id: 'vita-c-serum',
@@ -28,8 +26,7 @@ export const products = [
     tagline: 'Brightening Serum',
     description: 'سيروم فيتامين C لإشراقة موحّدة وحماية مضادة للأكسدة طوال اليوم.',
     icon: 'Sun',
-    image:
-      'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/product-vitac.svg',
   },
   {
     id: 'barrier-balm',
@@ -38,8 +35,7 @@ export const products = [
     tagline: 'Restorative Barrier Cream',
     description: 'بلسم مرمّم يقوّي حاجز البشرة ويهدّئ الاحمرار والتهيّج.',
     icon: 'ShieldCheck',
-    image:
-      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/product-barrier-balm.svg',
   },
 ]
 
