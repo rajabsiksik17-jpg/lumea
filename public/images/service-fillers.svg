@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
       <stop offset="0" stop-color="#F3EDE4"/>
-      <stop offset="1" stop-color="#E0D5C5"/>
+      <stop offset="1" stop-color="#DCCFBD"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="900" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="72" y="54" width="1056" height="792"/>
-  </g>
-  <text x="50%" y="423" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="156" fill="#1D1917" fill-opacity="0.55" letter-spacing="48">LUMÉA</text>
-  <text x="50%" y="495.00000000000006" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="7" fill="#81766D" fill-opacity="0.85">DERMAL FILLERS</text>
-</svg>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="600" cy="476" rx="115.50000000000001" ry="11.550000000000002" fill="#1D1917" opacity="0.14"/>
+  <rect x="579" y="364.4" width="25.2" height="42" rx="4.199999999999999" fill="#1D1917"/>
+  <rect x="584.6" y="350.4" width="14" height="16.799999999999997" rx="2.8" fill="#B79B7A"/>
+  <rect x="537" y="406.4" width="84" height="61.599999999999994" rx="8.399999999999999" fill="url(#glass)" stroke="#1D1917" stroke-opacity="0.15"/>
+  <rect x="542.6" y="417.59999999999997" width="72.8" height="19.599999999999998" rx="4.199999999999999" fill="#B79B7A" opacity="0.35"/>
+  <rect x="495" y="414.79999999999995" width="47.599999999999994" height="44.8" rx="7" fill="#B79B7A"/>
+  <rect x="509" y="406.4" width="16.799999999999997" height="61.599999999999994" rx="4.199999999999999" fill="#1D1917" opacity="0.25"/>
+  <line x1="506.2" y1="406.4" x2="506.2" y2="468" stroke="#1D1917" stroke-opacity="0.25"/></svg>

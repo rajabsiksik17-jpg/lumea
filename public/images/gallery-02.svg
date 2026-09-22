@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F6F1EA"/>
-      <stop offset="1" stop-color="#E8DED2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0" stop-color="#FCFAF7"/>
+      <stop offset="1" stop-color="#EDE4D6"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="1200" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="54" y="72" width="792" height="1056"/>
-  </g>
-  <text x="50%" y="564" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="117" fill="#1D1917" fill-opacity="0.55" letter-spacing="36">LUMÉA</text>
-  <text x="50%" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" letter-spacing="5" fill="#81766D" fill-opacity="0.85">GALLERY · 02</text>
-</svg>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <ellipse cx="450" cy="918" rx="72.54" ry="7.254000000000001" fill="#1D1917" opacity="0.14"/>
+  <rect x="391.5" y="743" width="117" height="169" rx="15.600000000000001" fill="#E9DCC8"/>
+  <rect x="399.3" y="756" width="25.74" height="143" rx="5.2" fill="#ffffff" opacity="0.55"/>
+  <rect x="430.5" y="672.8" width="39" height="52" rx="7.800000000000001" fill="#1D1917"/>
+  <rect x="434.4" y="639" width="31.200000000000003" height="39" rx="10.4" fill="#1D1917"/>
+  <rect x="443.5" y="631.2" width="13" height="13" rx="3.9000000000000004" fill="#B79B7A"/>
+  <text x="450" y="830.1" text-anchor="middle" font-family="Georgia, serif" font-size="20.8" fill="#1D1917" opacity="0.75" letter-spacing="7.800000000000001">LUMÉA</text>
+  <text x="450" y="853.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.1" letter-spacing="3.12" fill="#1D1917" opacity="0.5">SERUM</text></svg>

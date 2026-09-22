@@ -1,14 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FCFAF7"/>
-      <stop offset="1" stop-color="#EDE4D6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0" stop-color="#EFE8DC"/>
+      <stop offset="1" stop-color="#E3D5C1"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1920" height="1080" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="115.19999999999999" y="64.8" width="1689.6" height="950.4"/>
-  </g>
-  <text x="50%" y="507.59999999999997" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="250" fill="#1D1917" fill-opacity="0.55" letter-spacing="76.8">LUMÉA</text>
-  <text x="50%" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" letter-spacing="12" fill="#81766D" fill-opacity="0.85">FINAL CTA</text>
-</svg>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <ellipse cx="614.4" cy="885.5999999999999" rx="180" ry="18" fill="#1D1917" opacity="0.14"/>
+  <ellipse cx="1344" cy="907.1999999999999" rx="156" ry="15.600000000000001" fill="#1D1917" opacity="0.14"/>
+  
+  <ellipse cx="1382.3999999999999" cy="891.5999999999999" rx="77.00399999999999" ry="7.700399999999999" fill="#1D1917" opacity="0.14"/>
+  <rect x="1320.3" y="706.1999999999999" width="124.19999999999999" height="179.39999999999998" rx="16.56" fill="#E9DCC8"/>
+  <rect x="1328.58" y="719.9999999999999" width="27.323999999999998" height="151.79999999999998" rx="5.52" fill="#ffffff" opacity="0.55"/>
+  <rect x="1361.7" y="631.68" width="41.4" height="55.199999999999996" rx="8.28" fill="#1D1917"/>
+  <rect x="1365.84" y="595.8" width="33.12" height="41.4" rx="11.04" fill="#1D1917"/>
+  <rect x="1375.5" y="587.5199999999999" width="13.799999999999999" height="13.799999999999999" rx="4.14" fill="#B79B7A"/>
+  <text x="1382.3999999999999" y="798.66" text-anchor="middle" font-family="Georgia, serif" font-size="22.08" fill="#1D1917" opacity="0.75" letter-spacing="8.28">LUMÉA</text>
+  <text x="1382.3999999999999" y="823.4999999999999" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.66" letter-spacing="3.312" fill="#1D1917" opacity="0.5">SERUM</text>
+  
+  <ellipse cx="576" cy="848.4" rx="82.07999999999998" ry="8.207999999999998" fill="#1D1917" opacity="0.14"/>
+  <rect x="507.6" y="762.6" width="136.79999999999998" height="79.8" rx="11.399999999999999" fill="#F2EBDE"/>
+  <rect x="519" y="771.72" width="27.36" height="61.56" rx="5.699999999999999" fill="#ffffff" opacity="0.5"/>
+  <rect x="500.76000000000005" y="710.1600000000001" width="150.48" height="52.44" rx="15.959999999999999" fill="#DCCFBD"/>
+  <ellipse cx="576" cy="710.1600000000001" rx="75.24" ry="15.959999999999999" fill="#ffffff" opacity="0.35"/>
+  <text x="576" y="730.6800000000001" text-anchor="middle" font-family="Georgia, serif" font-size="17.099999999999998" fill="#1D1917" opacity="0.7" letter-spacing="6.84">LUMÉA</text>
+  
+  <ellipse cx="960" cy="546" rx="41.8176" ry="4.18176" fill="#1D1917" opacity="0.14"/>
+  <rect x="928.32" y="441" width="63.36" height="71.28" rx="6.6000000000000005" fill="#F2EBDE"/>
+  <path d="M 928.32 512.28 L 960 538.02 L 991.6800000000001 512.28 L 991.6800000000001 500.4 L 928.32 500.4 Z" fill="#F2EBDE"/>
+  <rect x="928.32" y="512.28" width="63.36" height="9.24" fill="#ffffff" opacity="0.4"/>
+  <rect x="950.76" y="500.4" width="18.48" height="17.16" rx="2.64" fill="#1D1917"/>
+  <text x="960" y="485.55" text-anchor="middle" font-family="Georgia, serif" font-size="9.24" fill="#1D1917" opacity="0.7" letter-spacing="3.3000000000000003">LUMÉA</text></svg>

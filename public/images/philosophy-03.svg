@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F3EDE4"/>
-      <stop offset="1" stop-color="#E0D5C5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0" stop-color="#FCFAF7"/>
+      <stop offset="1" stop-color="#EDE4D6"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="1200" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="72" y="72" width="1056" height="1056"/>
-  </g>
-  <text x="50%" y="564" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="156" fill="#1D1917" fill-opacity="0.55" letter-spacing="48">LUMÉA</text>
-  <text x="50%" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="7" fill="#81766D" fill-opacity="0.85">PHILOSOPHY · 03</text>
-</svg>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <ellipse cx="600" cy="918" rx="96.72" ry="9.672" fill="#1D1917" opacity="0.14"/>
+  <rect x="522" y="686.6666666666666" width="156" height="225.33333333333331" rx="20.8" fill="#E9DCC8"/>
+  <rect x="532.4" y="704" width="34.32" height="190.66666666666666" rx="6.933333333333334" fill="#ffffff" opacity="0.55"/>
+  <rect x="574" y="593.0666666666666" width="52" height="69.33333333333334" rx="10.4" fill="#1D1917"/>
+  <rect x="579.2" y="548" width="41.6" height="52" rx="13.866666666666667" fill="#1D1917"/>
+  <rect x="591.3333333333334" y="537.6" width="17.333333333333336" height="17.333333333333336" rx="5.2" fill="#B79B7A"/>
+  <text x="600" y="802.8" text-anchor="middle" font-family="Georgia, serif" font-size="27.733333333333334" fill="#1D1917" opacity="0.75" letter-spacing="10.4">LUMÉA</text>
+  <text x="600" y="834" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.133333333333333" letter-spacing="4.16" fill="#1D1917" opacity="0.5">SERUM</text></svg>

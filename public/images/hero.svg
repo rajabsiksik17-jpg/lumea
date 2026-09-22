@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
       <stop offset="0" stop-color="#F6F1EA"/>
       <stop offset="1" stop-color="#E8DED2"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1920" height="1080" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="115.19999999999999" y="64.8" width="1689.6" height="950.4"/>
-  </g>
-  <text x="50%" y="507.59999999999997" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="250" fill="#1D1917" fill-opacity="0.55" letter-spacing="76.8">LUMÉA</text>
-  <text x="50%" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" letter-spacing="12" fill="#81766D" fill-opacity="0.85">HERO</text>
-</svg>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <ellipse cx="960" cy="870" rx="107.136" ry="10.7136" fill="#1D1917" opacity="0.14"/>
+  <rect x="873.6" y="614.4" width="172.79999999999998" height="249.6" rx="23.04" fill="#E9DCC8"/>
+  <rect x="885.12" y="633.6" width="38.016" height="211.2" rx="7.68" fill="#ffffff" opacity="0.55"/>
+  <rect x="931.2" y="510.72" width="57.599999999999994" height="76.8" rx="11.52" fill="#1D1917"/>
+  <rect x="936.96" y="460.8" width="46.08" height="57.599999999999994" rx="15.36" fill="#1D1917"/>
+  <rect x="950.4" y="449.28" width="19.2" height="19.2" rx="5.76" fill="#B79B7A"/>
+  <text x="960" y="743.04" text-anchor="middle" font-family="Georgia, serif" font-size="30.72" fill="#1D1917" opacity="0.75" letter-spacing="11.52">LUMÉA</text>
+  <text x="960" y="777.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="13.44" letter-spacing="4.608" fill="#1D1917" opacity="0.5">SERUM</text>
+      <circle cx="537.6" cy="237.6" r="48" fill="#B79B7A" opacity="0.18"/>
+      <circle cx="1459.2" cy="302.40000000000003" r="31.2" fill="#B79B7A" opacity="0.14"/></svg>

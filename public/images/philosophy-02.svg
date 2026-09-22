@@ -1,14 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FCFAF7"/>
-      <stop offset="1" stop-color="#EDE4D6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0" stop-color="#F6F1EA"/>
+      <stop offset="1" stop-color="#E8DED2"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="1200" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="72" y="72" width="1056" height="1056"/>
-  </g>
-  <text x="50%" y="564" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="156" fill="#1D1917" fill-opacity="0.55" letter-spacing="48">LUMÉA</text>
-  <text x="50%" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" letter-spacing="7" fill="#81766D" fill-opacity="0.85">PHILOSOPHY · 02</text>
-</svg>
+  <rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="600" cy="896" rx="239.99999999999997" ry="24" fill="#1D1917" opacity="0.14"/>
+    <rect x="480" y="696" width="47.99999999999999" height="191.99999999999997" rx="11.2" fill="#E9DCC8"/>
+    <path d="M 480 696 L 504 657.6 L 528 696 Z" fill="#E9DCC8"/>
+    <rect x="486.4" y="712" width="8.639999999999999" height="159.99999999999997" rx="4.8" fill="#ffffff" opacity="0.5"/>
+    <rect x="576" y="696" width="47.99999999999999" height="191.99999999999997" rx="11.2" fill="#DCCFBD"/>
+    <path d="M 576 696 L 600 657.6 L 624 696 Z" fill="#DCCFBD"/>
+    <rect x="582.4" y="712" width="8.639999999999999" height="159.99999999999997" rx="4.8" fill="#ffffff" opacity="0.5"/>
+    <rect x="672" y="696" width="47.99999999999999" height="191.99999999999997" rx="11.2" fill="#F2EBDE"/>
+    <path d="M 672 696 L 696 657.6 L 720 696 Z" fill="#F2EBDE"/>
+    <rect x="678.4" y="712" width="8.639999999999999" height="159.99999999999997" rx="4.8" fill="#ffffff" opacity="0.5"/></svg>

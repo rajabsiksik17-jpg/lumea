@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F3EDE4"/>
-      <stop offset="1" stop-color="#E0D5C5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125"><defs>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0" stop-color="#F6F1EA"/>
+      <stop offset="1" stop-color="#E8DED2"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="1125" fill="url(#g)"/>
-  <g fill="none" stroke="#B79B7A" stroke-opacity="0.25">
-    <rect x="54" y="67.5" width="792" height="990"/>
-  </g>
-  <text x="50%" y="528.75" text-anchor="middle" font-family="Georgia, serif" font-weight="300" font-size="117" fill="#1D1917" fill-opacity="0.55" letter-spacing="36">LUMÉA</text>
-  <text x="50%" y="618.75" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" letter-spacing="5" fill="#81766D" fill-opacity="0.85">VITA-C SERUM</text>
-</svg>
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <ellipse cx="450" cy="883.5" rx="79.2" ry="7.920000000000001" fill="#1D1917" opacity="0.14"/>
+  <rect x="384" y="667.5" width="132" height="210" rx="18" fill="#C9973B"/>
+  <rect x="393" y="682.5" width="26.400000000000002" height="180" rx="6" fill="#ffffff" opacity="0.5"/>
+  <rect x="420" y="637.5" width="60" height="36" rx="7.5" fill="#1D1917"/>
+  <rect x="441" y="622.5" width="18" height="21" rx="4.5" fill="#B79B7A"/>
+  <text x="450" y="772.5" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#1D1917" opacity="0.7" letter-spacing="7.5">LUMÉA</text>
+      <rect x="360" y="450" width="180" height="34" rx="17" fill="#C9973B" opacity="0.25"/></svg>
